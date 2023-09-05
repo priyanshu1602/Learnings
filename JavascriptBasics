@@ -1,0 +1,38 @@
+**Naming convention**
+variables cannot start with numbers
+variables name follow camelCase
+variable name only contain numbers,dollar,letters,underscore signs
+error may occour if we use reserved javascript keywords.For eg-new,function
+variable starting with uppercase will be used in OOPS
+variable which are all in UPPERCASE are fixed or constant.For eg=PI=3.14
+naming of variable should be proper,by seeing that name one can recorgnize what value is given
+
+DataType-
+In javascript can be primitive or object
+if value is not object then only it is primitive
+object->
+let me={
+       name:'jonus'
+};
+
+primitive->
+let firstName=jonus;
+
+total 7 primitive data types
+
+console.log(2**3)->it means 2 to the power of 3->>>exponential operator
+
+To concatenate we use "+" operator
+
+let keywords can be changed in future
+const keywords remains same,value cannot be changed(if we reassign we get an error)->immutable variables,example birthyear
+we cannot declare empty const variable->for ex-const job(we get error)
+for clean code we always use const,if you are sure that the variable is going to change in future then only use let
+its a good practise to have very less changes in variables because it will introduce potential to  create bugs
+Var is a old way of declaring variables,its just like let
+difference between var and let
+
+Its not mandatory to declare variables but it is not a good practise because it does not create a variable in current scope instead it will create a property in global object
+
+
+
