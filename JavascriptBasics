@@ -35,4 +35,43 @@ difference between var and let
 Its not mandatory to declare variables but it is not a good practise because it does not create a variable in current scope instead it will create a property in global object
 
 
+**String Concatenation**
+
+const firstName='Jonas'
+const job='teacher'
+const birthYear='1995'
+const Year='2023'
+
+const result="I'm"+firstName+"a"+birthYear-Year+"old"+job (this was a old method of concatenation)
+
+const resultNew=`I'm ${firstName} a ${birthYear-Year} old ${job}`(this is called template literals)
+this can arrange multiple pieces to one final string,back tick is used
+Most used ES6 features
+it looks more cleaner
+we can use backtick for any regular string
+`this is a most common programming language`
+
+It is used in multi line string->
+console.log('string with \n\ 
+multiple \n\
+line')
+
+console.log(`string with 
+multiple 
+line`)
+
+**How to use ternary operator in place if if else loop**
+    return checkDataInOpenmrs === false ? procedureName : await findProcedure(diagnosisJson);
+    // if (checkDataInOpenmrs === false) {
+    //     return procedureName;
+    // }
+    // else {
+    //     await findProcedure(diagnosisJson)
+    // }
+
+
+
+
+
+
 
