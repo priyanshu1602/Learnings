@@ -69,8 +69,34 @@ line`)
     //     await findProcedure(diagnosisJson)
     // }
 
+** Type Conversion**
 
+String to Number conversion
+const year='1991'
+console.log(Number(year+8))=>19918
+year=Number(year+8)=>2000
 
+console.log(Number('John))=>Nan that means it is not a number
+
+Number to string
+console.log(String(23))=>23
+
+**Type Coercion**
+It happens whenever operator is dealing with two values which have different types in that case JS behind the scene convert one of the value to another to match
+whenever there is a coercion between number and string,number will be converted to string
+For Example-
+console.log('I am'+23+'years old')=> I am 23 years old
+JS have automatic type corecion
+
+console.log('23'-'10'-3)=>10
+//This means '-' and '*' and '/'operator is opposite it converts string to number
+
+**Boolean**
+Boolean(0)=>false
+Boolean('undefined')=>false
+Boolean('jonas')=>true
+Boolean({})=>true,empty object is also true
+Boolean('')=>false,empty string is false
 
 
 
