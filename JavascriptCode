@@ -18,7 +18,7 @@ let markHigherBMI = BMIMark>BMIJohn;
 console.log(markHigherBMI);   
 
 
-**Code 1**
+**Code 2**
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -37,6 +37,23 @@ if(BMIMark>BMIJohn)
 else
 {
     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`) 
+}
+
+**Code 3**
+/* Write your code below. Good luck! 🙂 */
+const scoreDolphins=(96+108+89)/3
+const scoreKoalas=(88+110+91)/3
+if(scoreDolphins>scoreKoalas)
+{
+    console.log("Dolphins win the trophy")
+}
+else if(scoreDolphins<scoreKoalas)
+{
+    console.log("Koalas win the trophy")
+}
+else
+{
+    console.log("Both win the trophy")
 }
 
 
