@@ -100,4 +100,13 @@ Boolean('')=>false,empty string is false
 
 
 
+**Strict Mode**
+it is a specaial mode that we can activate in javascript which make it easier to write secure code
+it is written in beginning of the code
+'use strict'//all the code will be written after that then only it can be activated
+it can also be activated for particular code block or function
+if there is strict mode and we use undeclared variable it will give error
+if we are not using it,then we will not be able to find what mistake we are doing in code
+
+
 
