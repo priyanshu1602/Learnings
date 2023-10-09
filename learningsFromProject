@@ -1,0 +1,12 @@
+function validateTime(actual,dateTime) {
+    if(actual==dateTime)
+    {
+        return;
+    }
+    let second=dateTime.split(":")[1]
+    second=String(second-1).padStart(2, '0');
+    dateTime=dateTime.split(":")[0]+":"+second;
+    validateTime(actual,dateTime)
+}
+
+
