@@ -118,4 +118,45 @@ return 2037-birthYear
 CalAge(1999)->here 1999 is argument(actual value)
 
 
+**Function Declaration**
+
+function CalAge(birthYear)->birthYear is parameter
+{
+return 2037-birthYear
+}
+CalAge(1999)->here 1999 is argument(actual value)
+
+** Arrow functions**
+But now, what if we had multiple parameters?
+
+Well, then we need
+
+to wrap the parameters here into parentheses.
+
+So in VS Code, we can just select a variable
+
+and then write parentheses
+
+and then it will automatically wrap this variable
+
+into parentheses on both sides.
+
+So let's say we want the birthYeah
+
+but also the firstName
+
+so that we can like return something else,
+
+like a sentence.
+
+So let's comment out this part here
+
+and instead, let's return a string.
+
+And again, we're using a template string here
+
+to build that string
+
+
+
 
