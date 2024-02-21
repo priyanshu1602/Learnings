@@ -1,0 +1,9 @@
+**Sort Array**
+import java.util.Arrays;
+Arrays.sort(arr);
+O(N2) Prior to Java 14, Arrays.sort(int[]) used dual pivot quick sort having worst case complexity of  O(N2). From Java 14, Arrays.sort(int[])  used heap sort with worst case complexity of O(NlogN)
+if want to sort in descending order
+reverse(arr)
+
+
+
