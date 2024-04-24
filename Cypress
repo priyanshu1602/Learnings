@@ -1,0 +1,10 @@
+Cypress automatically wait for commands and assertion before moving on
+For example->Hidden elements(if some popup box comes above a checkbox so checkbox will be hidden)
+Ability to test edge testcases by mocking the server response
+Cypress take snapshot when the test are run,we can hover over each command in the command log to see exactly what happen at each step
+Cypress is build on node js and comes packaged as an npm module
+Cypress engine directly operates inside the engine there is no proxy server between it.In selenium we have chromedriver
+Cypress intelligently know that there is some loading icon in browser and it automatically wait because it is seating on top of the browser and it keep listening to the DOM
+Using cypress we can do unit,integrating and E2E testing
+Browser supports-chrome,firefox,electron(lightversion of chrome)
+
