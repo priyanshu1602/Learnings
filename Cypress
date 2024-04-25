@@ -18,3 +18,8 @@ specPattern:'cypress/Integration/examples/*.js'
 Scan and find all file which end with js
 Mocha or jasmine are 2 framework which is available for javascript
 Cypress has a knowledge of automating browser but we have to folow some testing standard to write test cases to make it runnable
+Here we are using mocha
+describe->Will take 2 argument,first argument is about description and second argument is function that wraps all it block(without any argument)
+all test cases will go inside these functions
+cy is the global command which will invoke any cypress commands,its like driver in selenium,don't have to create object for this ,this comes by defalut in node module
+
