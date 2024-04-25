@@ -7,4 +7,7 @@ Cypress engine directly operates inside the engine there is no proxy server betw
 Cypress intelligently know that there is some loading icon in browser and it automatically wait because it is seating on top of the browser and it keep listening to the DOM
 Using cypress we can do unit,integrating and E2E testing
 Browser supports-chrome,firefox,electron(lightversion of chrome)
+NPM install(Node package manager)this is the place where whoever develop software which is javasvript based they host their packages
+If you want to create package.json file give command-> npm -i init
+Install cypress -npm install cypress --save-dev
 
