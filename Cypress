@@ -22,4 +22,11 @@ Here we are using mocha
 describe->Will take 2 argument,first argument is about description and second argument is function that wraps all it block(without any argument)
 all test cases will go inside these functions
 cy is the global command which will invoke any cypress commands,its like driver in selenium,don't have to create object for this ,this comes by defalut in node module
+Run all test cases-cypress run
+Open cypress tool-open cypress
+If you want to run specific spec-
+Cypress is suggesting to put all test data into folder called Fixtures
+Plugins->its a kind of listerners,before invoking browser we give the details here(for eg-set the browser on full mode)
+In support folder we can write reusable code
+https://rahulshettyacademy.com/seleniumPractise/#/
 
