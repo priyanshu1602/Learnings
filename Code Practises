@@ -6,3 +6,4 @@ template for raising PR(requirement and summary add it,Screenshot if applicable)
 commit message-card no,name,commit message
 use consistent naming conventions
 use camel case convention
+In network tab add block and see what error we are getting if it is keep on loading then its an issue
