@@ -10,4 +10,11 @@ Browser supports-chrome,firefox,electron(lightversion of chrome)
 NPM install(Node package manager)this is the place where whoever develop software which is javasvript based they host their packages
 If you want to create package.json file give command-> npm -i init
 Install cypress -npm install cypress --save-dev
-
+After doing nom install->node-modules and package-lock.json is created
+Initially when cypress started they told us to create a folder under Cypress named as integration and write all the code there
+Any test case here is called spec file
+How the cypress know where the file is been saved->So inside cypress.config.js file we can define
+specPattern:'cypress/Integration/examples/*.js'
+Scan and find all file which end with js
+Mocha or jasmine are 2 framework which is available for javascript
+Cypress has a knowledge of automating browser but we have to folow some testing standard to write test cases to make it runnable
