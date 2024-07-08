@@ -1,0 +1,21 @@
+Check Docker Version: docker --version
+List Docker Containers: docker ps,docker ps -a
+Start/Stop/Restart Containers: docker start <container_name_or_id>
+                               docker stop <container_name_or_id>
+                               docker restart <container_name_or_id>
+
+Remove Containers: docker rm <container_name_or_id>
+Remove all stopped containers: docker container prune
+List Docker Images: docker images
+Remove all unused images: docker image prune -a
+Pull Docker Image: docker pull <image_name>
+List Docker Networks: docker network ls
+List Docker Volumes: docker volume ls
+Create Docker Volume: docker volume rm <volume_name>
+Start Services: docker-compose up
+Stop Services: docker-compose down
+List Running Services: docker-compose ps
+View Logs: docker-compose logs
+Clear Docker Cache : docker system prune -a
+Mongo up: docker-compose --profile mongo up
+command to remove all containers: docker rm -f $(docker ps -a -q)
